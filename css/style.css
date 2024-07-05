@@ -15,14 +15,15 @@ body {
   font-weight: 400;
 }
 
-img{
+img {
   display: block;
 }
 
 .container {
-  width: 1130px;
+  width: 1158px;
   max-width: 100%;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 ul,
@@ -48,6 +49,7 @@ h1 {
 .header {
   padding: 24px;
   background: #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
   display: flex;
@@ -63,16 +65,31 @@ h1 {
   font-weight: 700;
   font-family: "Raleway", sans-serif;
   font-size: 1.125rem;
+  margin-right: 76px;
+  text-transform: uppercase;
 }
 .header .web {
   color: #4d5ae5;
 }
-.header .menu-list,
-.header .contact-list {
+.header .menu {
   display: flex;
-  justify-content: center;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
   gap: 40px;
 }
+
+.menu-item{
+  padding: 24px 0;
+}
+
+.contact-list{
+  display: flex;
+  gap: 40px;
+}
+
 .header .menu-list a,
 .header .contact-list a {
   font-weight: 500;
@@ -135,7 +152,8 @@ h1 {
 .team .team-item {
   background: #fff;
   border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team .team-text {
   padding: 32px 49px;
