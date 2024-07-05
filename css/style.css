@@ -82,11 +82,11 @@ a {
   gap: 40px;
 }
 
-.menu-link{
+.menu-link {
   padding: 24px 0;
 }
 
-.contact-list{
+.contact-list {
   display: flex;
   gap: 40px;
 }
@@ -122,6 +122,13 @@ a {
 .tech {
   margin-top: 94px;
   margin-bottom: 120px;
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  visibility: hidden;
+  outline: 0;
+  outline-offset: 0;
 }
 .tech .tech-list {
   display: flex;
@@ -132,10 +139,12 @@ a {
 .tech .tech-list h3 {
   font-size: 1.25rem;
   font-weight: 500;
+  margin-bottom: 8px;
 }
 .tech .tech-list li {
   color: #434455;
   letter-spacing: 0.02em;
+  width: calc((100% - 72px) / 4);
 }
 
 .team {
